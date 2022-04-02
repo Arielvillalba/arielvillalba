@@ -1,0 +1,44 @@
+body {background-color: rgb(164, 180, 141);}
+
+header{
+    padding: 50px;
+    background-color: brown;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+
+}
+nav a{
+    color: aliceblue;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+aside{
+    flex: 30px;
+    background-color: chocolate;
+    padding: 50px;
+
+}
+section{
+    flex: 70px;
+    background-color: crimson;
+    padding: 20px;
+}
+footer{
+    background-color: darkslateblue;
+    padding: 50px;
+    text-align: center;
+}
+.foto{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: right;
+}
+.logo{
+    display: flex;
+    justify-content: end;
+ width: auto;
+ height: auto;  
+}
